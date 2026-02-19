@@ -1,52 +1,28 @@
-<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
 
-  <style>
-    .title { font-family: Arial; font-size: 22px; font-weight: bold; fill: #222; }
-    .label { font-family: Arial; font-size: 15px; fill: #222; }
-    .small { font-family: Arial; font-size: 12px; fill: #444; }
-    .fact { fill: #fff4e6; stroke: #ff7f0e; stroke-width: 1.6; rx: 10; ry: 10; }
-    .dim { fill: #e8f5e9; stroke: #2e7d32; stroke-width: 1.4; rx: 8; ry: 8; }
-    .arrow { stroke: #555; stroke-width: 1.6; marker-end: url(#arrowhead); fill: none; }
-  </style>
+  <rect x="450" y="260" width="300" height="120" fill="#fff4e6" stroke="#ff7f0e" stroke-width="2" rx="10"/>
+  <text x="600" y="295" font-family="Arial" font-size="16" text-anchor="middle">FACT_TotalEnergy_GHG_Growth</text>
+  <text x="600" y="320" font-family="Arial" font-size="12" text-anchor="middle">Year · EnergyGrowth% · GHG_Growth%</text>
 
-  <defs>
-    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <polygon points="0 0, 6 3, 0 6" fill="#555"/>
-    </marker>
-  </defs>
+  <rect x="100" y="120" width="260" height="100" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <text x="230" y="155" font-family="Arial" font-size="16" text-anchor="middle">DIM_EnergyUseBySource</text>
+  <text x="230" y="180" font-family="Arial" font-size="12" text-anchor="middle">Year · Source · Energy (PJ)</text>
 
-  <text x="50" y="50" class="title">Power BI Star Schema — Calgary Energy & GHG Model</text>
+  <rect x="100" y="380" width="260" height="100" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <text x="230" y="415" font-family="Arial" font-size="16" text-anchor="middle">DIM_GHGEmissionsBySource</text>
+  <text x="230" y="440" font-family="Arial" font-size="12" text-anchor="middle">Year · Source · GHG (Mt CO₂e)</text>
 
-  <!-- FACT TABLE -->
-  <rect x="450" y="300" width="300" height="120" class="fact"/>
-  <text x="600" y="330" text-anchor="middle" class="label">FACT_TotalEnergy_GHG_Growth</text>
-  <text x="600" y="355" text-anchor="middle" class="small">Year · EnergyGrowth% · GHG_Growth%</text>
-  <text x="600" y="375" text-anchor="middle" class="small">Central fact table for KPIs</text>
+  <rect x="900" y="120" width="260" height="100" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <text x="1030" y="155" font-family="Arial" font-size="16" text-anchor="middle">DIM_Date</text>
+  <text x="1030" y="180" font-family="Arial" font-size="12" text-anchor="middle">Year · Month · Quarter</text>
 
-  <!-- DIM: Energy Use -->
-  <rect x="100" y="180" width="260" height="100" class="dim"/>
-  <text x="230" y="210" text-anchor="middle" class="label">DIM_EnergyUseBySource</text>
-  <text x="230" y="235" text-anchor="middle" class="small">Year · Source · Energy (PJ)</text>
+  <rect x="900" y="380" width="260" height="100" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <text x="1030" y="415" font-family="Arial" font-size="16" text-anchor="middle">DIM_Sector (Optional)</text>
+  <text x="1030" y="440" font-family="Arial" font-size="12" text-anchor="middle">Residential · Industrial · Transport</text>
 
-  <!-- DIM: GHG Emissions -->
-  <rect x="100" y="420" width="260" height="100" class="dim"/>
-  <text x="230" y="450" text-anchor="middle" class="label">DIM_GHGEmissionsBySource</text>
-  <text x="230" y="475" text-anchor="middle" class="small">Year · Source · GHG (Mt CO₂e)</text>
-
-  <!-- DIM: Date -->
-  <rect x="900" y="180" width="260" height="100" class="dim"/>
-  <text x="1030" y="210" text-anchor="middle" class="label">DIM_Date</text>
-  <text x="1030" y="235" text-anchor="middle" class="small">Year · Month · Quarter</text>
-
-  <!-- DIM: Sector (optional future expansion) -->
-  <rect x="900" y="420" width="260" height="100" class="dim"/>
-  <text x="1030" y="450" text-anchor="middle" class="label">DIM_Sector (Optional)</text>
-  <text x="1030" y="475" text-anchor="middle" class="small">Residential · Industrial · Transport</text>
-
-  <!-- Arrows -->
-  <line x1="360" y1="230" x2="450" y2="330" class="arrow"/>
-  <line x1="360" y1="470" x2="450" y2="390" class="arrow"/>
-  <line x1="900" y1="230" x2="750" y2="330" class="arrow"/>
-  <line x1="900" y1="470" x2="750" y2="390" class="arrow"/>
+  <line x1="360" y1="170" x2="450" y2="300" stroke="#444" stroke-width="2"/>
+  <line x1="360" y1="430" x2="450" y2="340" stroke="#444" stroke-width="2"/>
+  <line x1="900" y1="170" x2="750" y2="300" stroke="#444" stroke-width="2"/>
+  <line x1="900" y1="430" x2="750" y2="340" stroke="#444" stroke-width="2"/>
 
 </svg>
