@@ -1,0 +1,51 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .title { font-family: Arial; font-size: 22px; font-weight: bold; fill: #222; }
+    .label { font-family: Arial; font-size: 14px; fill: #222; }
+    .small { font-family: Arial; font-size: 12px; fill: #444; }
+    .box { fill: #fff; stroke: #444; stroke-width: 1.5; rx: 8; ry: 8; }
+    .process { fill: #e8f6ff; stroke: #1f77b4; stroke-width: 1.5; rx: 10; ry: 10; }
+    .store { fill: #f5f5ff; stroke: #444; stroke-width: 1.5; rx: 8; ry: 8; }
+    .arrow { stroke: #555; stroke-width: 1.6; marker-end: url(#arrowhead); fill: none; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#555"/>
+    </marker>
+  </defs>
+
+  <text x="50" y="50" class="title">Data Flow Diagram — Calgary GHG & Energy Analysis</text>
+
+  <!-- Raw Data -->
+  <rect x="60" y="120" width="240" height="120" class="box"/>
+  <text x="180" y="150" text-anchor="middle" class="label">Raw Data Sources (Excel)</text>
+  <text x="180" y="175" text-anchor="middle" class="small">• Energy Use by Energy Source (PJ)</text>
+  <text x="180" y="195" text-anchor="middle" class="small">• GHG Emissions by Energy Source</text>
+  <text x="180" y="215" text-anchor="middle" class="small">• Total Energy & GHG Growth</text>
+
+  <!-- Cleaning -->
+  <rect x="360" y="120" width="260" height="120" class="process"/>
+  <text x="490" y="150" text-anchor="middle" class="label">Data Cleaning & Standardization</text>
+  <text x="490" y="175" text-anchor="middle" class="small">Unit conversions · Normalization</text>
+  <text x="490" y="195" text-anchor="middle" class="small">Year alignment · Validation</text>
+
+  <!-- Consolidated -->
+  <rect x="680" y="120" width="240" height="120" class="store"/>
+  <text x="800" y="150" text-anchor="middle" class="label">Consolidated Master Tables</text>
+  <text x="800" y="175" text-anchor="middle" class="small">Cleaned & structured datasets</text>
+  <text x="800" y="195" text-anchor="middle" class="small">Ready for Power BI</text>
+
+  <!-- Power BI -->
+  <rect x="960" y="120" width="220" height="120" class="box"/>
+  <text x="1070" y="150" text-anchor="middle" class="label">Power BI Model</text>
+  <text x="1070" y="175" text-anchor="middle" class="small">Relationships · DAX · KPIs</text>
+  <text x="1070" y="195" text-anchor="middle" class="small">Dashboards & Insights</text>
+
+  <!-- Arrows -->
+  <line x1="300" y1="180" x2="360" y2="180" class="arrow"/>
+  <line x1="620" y1="180" x2="680" y2="180" class="arrow"/>
+  <line x1="920" y1="180" x2="960" y2="180" class="arrow"/>
+
+</svg>
