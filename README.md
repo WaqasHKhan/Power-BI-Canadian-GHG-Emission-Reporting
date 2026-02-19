@@ -1,11 +1,18 @@
-# 🌎 Calgary GHG & Energy Use Analysis (2000–2018)
+# <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" width="28" /> Calgary GHG & Energy Use Analysis (2000–2018)
 
-A full end‑to‑end data analytics project analyzing **Calgary’s greenhouse gas (GHG) emissions** and **energy consumption** from **2000 to 2018**.  
+![Excel](https://img.shields.io/badge/MS%20Excel-Power%20Pivot-green)
+![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-orange)
+![DAX](https://img.shields.io/badge/PowerBI-DAX-yellow)
+![PowerBI](https://img.shields.io/badge/PowerBI-Model%20view-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Visualization-red)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+A full **end‑to‑end** data analytics project analyzing **Calgary’s greenhouse gas (GHG) emissions** and **energy consumption** from **2000 to 2018**.  
 This project demonstrates advanced skills in **data cleaning**, **data modeling**, **DAX**, **Power BI dashboarding**, and **technical storytelling**.
 
 ---
 
-## 📌 Project Overview
+## 🔍 Project Overview
 
 Canada’s commitment to the **Paris Agreement**, rising **carbon taxes**, and increasing **GHG emissions** make energy analytics more important than ever.  
 This project transforms raw, inconsistent government datasets into a unified analytical model that reveals:
@@ -18,17 +25,18 @@ This project transforms raw, inconsistent government datasets into a unified ana
 
 The final deliverables include:
 
-- Cleaned & consolidated datasets  
-- A Power BI semantic model  
-- DAX‑powered KPIs & metrics  
-- Interactive dashboards  
-- A professional presentation deck  
+- Cleaned & Consolidated Datasets  
+- A Power BI Semantic Model  
+- DAX‑Powered KPIs & Metrics  
+- Interactive Dashboards  
+- A Professional Presentation Deck  
 
 ---
+## 🧪 Methodology
 
-## 📊 1. Data Flow Diagram (DFD)
+## 🗂️ 1. Data Flow Diagram (DFD)
 
-This diagram shows the full analytical workflow — from raw Excel files to Power BI dashboards.
+This diagram shows the full analytical **workflow** — from raw Excel files to Power BI dashboards.
 
 <p align="center">
   <img src="diagrams/dfd.svg" width="90%" />
@@ -52,12 +60,12 @@ The semantic model is built around **three core tables**:
 
 ## 🧹 Data Cleaning & Standardization
 
-All raw Excel files were cleaned and standardized using Excel and Power Query.
+All raw Excel files were cleaned and standardized using Excel and Power Query, Power Pivot and Transpose Function.
 
 ### ✔ Cleaning Steps
 - Removed duplicates, blanks, and corrupted rows  
 - Standardized column names and formats  
-- Converted energy units (PJ → GJ → kWh)  
+- Converted energy units (kWh → GJ  → PJ)  
 - Normalized sector and source categories  
 - Aligned year fields across all datasets  
 - Validated numerical ranges and totals  
@@ -94,7 +102,7 @@ The Power BI model includes:
 A robust DAX layer powers all KPIs and dashboards.
 
 ### **Unit Conversions**
-- PJ → GJ  
+- GJ → PJ  
 - GJ → kWh  
 - Emission intensity per unit of energy  
 
@@ -118,13 +126,13 @@ A robust DAX layer powers all KPIs and dashboards.
 
 The Power BI report includes:
 
-### **1. Executive KPI Dashboard**
+### 1️⃣ Executive KPI Dashboard**
 - Total GHG emissions  
 - Total energy consumption  
 - Growth since 2000  
 - Emission intensity trends  
 
-### **2. Energy Source Analysis**
+### 2️⃣ Energy Source Analysis**
 - Electricity  
 - Natural gas  
 - Motor gasoline  
@@ -132,14 +140,14 @@ The Power BI report includes:
 - Aviation fuels  
 - Wood waste & pulping liquor  
 
-### **3. Sectoral Emissions**
+### 3️⃣ Sectoral Emissions**
 - Residential  
 - Commercial & Institutional  
 - Industrial  
 - Transportation  
 - Agriculture  
 
-### **4. Calgary‑Focused Insights**
+### 4️⃣ Calgary‑Focused Insights**
 - Localized trends  
 - Policy implications  
 - Carbon tax impact  
@@ -166,14 +174,14 @@ This presentation is designed for **executive and academic audiences**.
 
 | Tool | Purpose |
 |------|---------|
-| **Excel** | Cleaning, standardization, consolidation |
-| **Power BI** | Modeling, DAX, dashboards |
-| **DAX** | KPIs, calculations, time intelligence |
-| **GitHub** | Documentation & version control |
+| **Excel** | Cleaning, Standardization, Consolidation |
+| **Power BI** | Modeling, DAX, Dashboards |
+| **DAX** | KPIs, Calculations, Time Intelligence |
+| **GitHub** | Documentation & Version Control |
 
 ---
 
-## 🚀 Key Outcomes
+## 💡 Key Outcomes
 
 - Built a **fully automated analytical model** for 18 years of Calgary energy & GHG data  
 - Delivered **interactive dashboards** for decision‑makers  
@@ -184,18 +192,22 @@ This presentation is designed for **executive and academic audiences**.
 
 ---
 
-## 🙌 Author
+## ⭐ Explore the Dashboard
 
-**Waqas Ahmed**  
-Senior Data Analyst | Business Intelligence | Power BI | SQL | Python  
-Calgary, Alberta, Canada  
+The Power BI file is included: 👉 [![Click20%Here20%to20%Open](https://img.shields.io/badge/PowerBI-Dashboard-red)](https://github.com/WaqasHKhan/Power-BI-Canadian-GHG-Emission-Reporting/blob/cab2d0cd9dbffba6807a5d05540ed69ae75b266b/PowerBI%20Desktop/GHG%20emissions%20.pbix)
+
+You can download and open it in **Power BI Desktop**.
 
 ---
 
-## ⭐ Explore the Dashboard
+## 👤 Author
 
-The Power BI file is included in the `/powerbi` folder.  
-You can download and open it in **Power BI Desktop**.
+**Waqas Hameed**  
 
+![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)![Dashboard PDF](https://img.shields.io/badge/@WaqasHKhan-white)
 
+Data Analyst | Business Intelligence |Data Storyteller | Visualization & Reporting | Power BI
+
+---
+⭐ If you found this project insightful, feel free to star the repository!
 
