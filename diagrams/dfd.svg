@@ -1,1 +1,29 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
 
+  <!-- Raw Data -->
+  <rect x="40" y="60" width="260" height="120" fill="#ffffff" stroke="#444" stroke-width="2" rx="8"/>
+  <text x="170" y="95" font-family="Arial" font-size="16" text-anchor="middle">Data Sources</text>
+  <text x="170" y="120" font-family="Arial" font-size="12" text-anchor="middle">GHG Emissions</text>
+  <text x="170" y="140" font-family="Arial" font-size="12" text-anchor="middle">Energy and GHG Growth</text>
+
+  <!-- Cleaning -->
+  <rect x="360" y="60" width="260" height="120" fill="#e8f6ff" stroke="#17b7d4" stroke-width="2" rx="8"/>
+  <text x="490" y="95" font-family="Arial" font-size="16" text-anchor="middle">Cleaning</text>
+  <text x="490" y="120" font-family="Arial" font-size="12" text-anchor="middle">Standardization and Conversion</text>
+
+  <!-- Consolidated -->
+  <rect x="660" y="60" width="240" height="120" fill="#f5f5ff" stroke="#444" stroke-width="2" rx="8"/>
+  <text x="780" y="95" font-family="Arial" font-size="16" text-anchor="middle">Consolidated Tables</text>
+  <text x="780" y="120" font-family="Arial" font-size="12" text-anchor="middle">Cleaned and Structured</text>
+
+  <!-- Power BI -->
+  <rect x="960" y="60" width="220" height="120" fill="#fff8f8" stroke="#444" stroke-width="2" rx="8"/>
+  <text x="1070" y="95" font-family="Arial" font-size="16" text-anchor="middle">Power BI Model</text>
+  <text x="1070" y="120" font-family="Arial" font-size="12" text-anchor="middle">Relationships, DAX, KPIs</text>
+
+  <!-- arrows -->
+  <line x1="300" y1="120" x2="360" y2="120" stroke="#444" stroke-width="2"/>
+  <line x1="620" y1="120" x2="660" y2="120" stroke="#444" stroke-width="2"/>
+  <line x1="900" y1="120" x2="960" y2="120" stroke="#444" stroke-width="2"/>
+
+</svg>
