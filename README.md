@@ -178,7 +178,7 @@ The Power BI report includes:
 
 ## 🎤 Final Presentation
 
-A polished PowerPoint deck summarizes:
+A polished PowerPoint deck and a Full PDF report summarize:
 
 - Project scope  
 - Business problem  
@@ -188,6 +188,13 @@ A polished PowerPoint deck summarizes:
 - Recommendations  
 
 This presentation is designed for **executive and academic audiences**.
+---
+### 🎞️ Full Capstone Project Slides
+👉 [![Project Slides](https://img.shields.io/badge/Project%20Slides-View-blueviolet)](https://github.com/WaqasHKhan/Power-BI-Canadian-GHG-Emission-Reporting/blob/c14e0c9c537b12b5d7fd507959de82ec625ebb30/F.Presentation%20-%20Canadian%20Greenhouse%20Gas%20Analysis.pdf)
+
+---
+### 📄 Full Capstone Project Report
+👉 [![Click20%Here20%to20%Open](https://img.shields.io/badge/Project-Report-blue)](https://github.com/WaqasHKhan/Power-BI-Canadian-GHG-Emission-Reporting/blob/7f4f8e9db2a547499a3715d0bd2622c77f294e0e/Calgary_GHG_Emissions_Report.pdf)
 
 ---
 
