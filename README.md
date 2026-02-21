@@ -1,4 +1,4 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" width="28" /> Calgary GHG & Energy Use Analysis (2000–2018)
+# <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" width="28" /> City of Calgary GHG & Energy Use Analysis (2000–2018)
 
 ![Excel](https://img.shields.io/badge/MS%20Excel-Power%20Pivot-green)
 ![EDA](https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-orange)
@@ -32,11 +32,30 @@ The final deliverables include:
 - A Professional Presentation Deck  
 
 ---
+## 🎯 Business Problem
+
+Climate change mitigation is no longer optional:
+
+- **Carbon pricing policies** are permanent and scheduled to increase annually
+
+- **GHG emissions continue to rise** despite regulatory frameworks
+
+- Canada is legally bound to meet its **Paris Agreement commitments**
+
+However, policymakers and analysts face three persistent challenges:
+
+1️⃣ Disconnected and untidy emissions datasets
+
+2️⃣ Limited visibility into **city-level emission drivers**
+
+3️⃣ Lack of actionable KPIs to support evidence-based climate decisions
+
+---
 ## 🧪 Methodology
 
 ## 🗂️ 1. Data Flow Diagram (DFD)
 
-This diagram shows the full analytical **workflow** — from raw Excel files to Power BI dashboards.
+This diagram shows the full analytical **workflow** — from **four raw and semi-processed Excel datasets** sourced from federal and municipal emissions and energy reporting systems, to Power BI dashboards.
 
 <p align="center">
   <img src="diagrams/dfd.svg" width="90%" />
@@ -56,6 +75,8 @@ The semantic model is built around **three core tables**:
   <img src="diagrams/star-schema.svg" width="90%" />
 </p>
 
+These datasets were originally provided as **flat, tabular files** with **inconsistent units**, **naming conventions**, and **temporal structures**, requiring significant preprocessing before analysis.
+
 ---
 
 ## 🧹 Data Cleaning & Standardization
@@ -65,10 +86,10 @@ All raw Excel files were cleaned and standardized using Excel and Power Query, P
 ### ✔ Cleaning Steps
 - Removed duplicates, blanks, and corrupted rows  
 - Standardized column names and formats  
-- Converted energy units (kWh → GJ  → PJ)  
+- Converted energy units for analytical consistency (kWh → GJ  → PJ)  
 - Normalized sector and source categories  
-- Aligned year fields across all datasets  
-- Validated numerical ranges and totals  
+- Aligned multi-year time series for trend analysis  
+- Validated numerical ranges and totals after consolidation to ensure data integrity 
 
 ### ✔ Consolidated Tables Produced
 - `Energy_Use_By_Source_Clean.xlsx`  
@@ -196,7 +217,32 @@ This presentation is designed for **executive and academic audiences**.
 
 The Power BI file is included: 👉 [![Click20%Here20%to20%Open](https://img.shields.io/badge/PowerBI-Dashboard-red)](https://github.com/WaqasHKhan/Power-BI-Canadian-GHG-Emission-Reporting/blob/cab2d0cd9dbffba6807a5d05540ed69ae75b266b/PowerBI%20Desktop/GHG%20emissions%20.pbix)
 
+---
 You can download and open it in **Power BI Desktop**.
+
+## 🚀 Strategic Value & Impact
+
+This project demonstrates how analytics can support climate strategy by:
+
+- Converting raw emissions data into **actionable intelligence**
+
+- Enabling evidence-based policy discussions
+
+- Supporting transparency and accountability in emissions reporting
+
+- Providing a scalable framework for future climate analytics initiatives
+
+---
+
+## 🔮 Future Enhancements
+
+- Integrate **forecasting models** to project future emissions
+
+- Add **policy scenario analysis** (carbon tax impact, reduction targets)
+
+- Include **per-capita and intensity-based metrics**
+
+- Expand to other Canadian cities for cross-municipal benchmarking
 
 ---
 
